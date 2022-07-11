@@ -2,7 +2,7 @@
 //   constructor(public name: string, public amount: number) {}
 // }
 
-export type Ingredient = {
+export interface Ingredient {
   name: string;
   amount: number;
-};
+}

@@ -10,8 +10,8 @@
 //   }
 // }
 
-export type Recipe = {
+export interface Recipe {
   name: string;
   description: string;
   imagePath: string;
-};
+}
